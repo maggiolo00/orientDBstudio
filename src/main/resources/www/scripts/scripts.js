@@ -17198,7 +17198,7 @@ var duScrollDefaultEasing=function(a){return.5>a?Math.pow(2*a,2)/2:1-Math.pow(2*
 
 var API = (function () {
     var m = window.location.pathname.match(/(.*\/)studio\/index.html/);
-    return m && m[1] ? m[1] : '/api/';
+    return m && m[1] ? m[1] : '/';
 })();
 
 var STUDIO_VERSION = "2.0";
